@@ -261,12 +261,11 @@ export default function Home() {
             
             <motion.h1 
               variants={fadeInUp}
-              className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-8 leading-[1.05]"
+              className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-8 leading-[1.1]"
             >
-              <span className="text-primary">We Don't Build Websites.</span>
+              <span className="text-primary">We Don't Just Build Websites.</span>
               <br />
-              <span className="gradient-text">We Build Systems</span>
-              <br />
+              <span className="gradient-text">We Build Systems</span>{' '}
               <span className="text-primary">That Run Your Business.</span>
             </motion.h1>
             
