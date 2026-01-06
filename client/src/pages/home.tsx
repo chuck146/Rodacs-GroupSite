@@ -546,7 +546,7 @@ export default function Home() {
                   </div>
                   <div>
                     <div className="text-sm text-slate-500 font-medium uppercase tracking-wider">Email Us</div>
-                    <a href="mailto:steven@rodacsgroup.com" className="text-lg font-semibold hover:text-primary">steven@rodacsgroup.com</a>
+                    <a href="mailto:steven@rodascgroup.com" className="text-lg font-semibold hover:text-primary">steven@rodascgroup.com</a>
                   </div>
                 </div>
                 
@@ -657,7 +657,7 @@ export default function Home() {
                 <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-secondary hover:text-white transition-colors">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="mailto:steven@rodacsgroup.com" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-secondary hover:text-white transition-colors">
+                <a href="mailto:steven@rodascgroup.com" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-secondary hover:text-white transition-colors">
                   <Mail className="w-5 h-5" />
                 </a>
               </div>
@@ -677,7 +677,7 @@ export default function Home() {
               <ul className="space-y-3">
                 <li className="flex items-center gap-2">
                   <Mail className="w-4 h-4" />
-                  <a href="mailto:steven@rodacsgroup.com" className="hover:text-secondary transition-colors">steven@rodacsgroup.com</a>
+                  <a href="mailto:steven@rodascgroup.com" className="hover:text-secondary transition-colors">steven@rodascgroup.com</a>
                 </li>
                 {/* <li className="flex items-center gap-2">
                   <Phone className="w-4 h-4" />
