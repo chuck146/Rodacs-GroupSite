@@ -1,0 +1,118 @@
+Create a modern, professional website for RODACS Group (RCG), a workflow automation and AI integration consultancy serving small to medium businesses.
+
+BUSINESS CONTEXT:
+- Company: RODACS Group (Rodas Consulting Group LLC)
+- Tagline: "Automation & AI for Growing Businesses"
+- Target: SMB owners drowning in manual processes—customer follow-ups, data entry, appointment booking, etc.
+- Core differentiator: We don't just build websites. We build SYSTEMS—websites that actively work for your business by automating tasks, booking appointments, following up with customers, and integrating with your operations.
+- Services: Workflow automation, AI-powered phone/chat systems, managed website hosting, business process optimization
+- Positioning: Strategic technology partner, not just a vendor. We lead with business outcomes, not technical jargon.
+
+TECHNICAL STACK:
+- Next.js 15 with App Router
+- Tailwind CSS + shadcn/ui components
+- TypeScript
+- Deployment: Vercel
+- Icons: Lucide React
+
+DESIGN SYSTEM:
+- Primary: Deep blue (#1E3A5F)
+- Accent: Teal (#0D9488)
+- Background: White with subtle gray sections (#F8FAFC)
+- Typography: Inter for headings, clean sans-serif body
+- Style: Premium but approachable, trustworthy, modern. Not corporate-stiff, not startup-flashy.
+
+HOMEPAGE SECTIONS:
+
+1. NAVIGATION
+- Logo placeholder (left)
+- Links: Services, About, Case Studies, Contact
+- CTA button: "Book a Consultation" (teal)
+
+2. HERO
+- Headline: "We Don't Build Websites. We Build Systems That Run Your Business."
+- Subhead: "Your website should book appointments, follow up with leads, and handle customer questions—automatically. We make that happen."
+- Primary CTA: "See How It Works" 
+- Secondary CTA: "Book a Free Consultation"
+- Small trust line below: "Helping service businesses across NJ work smarter, not harder"
+
+3. THE DIFFERENCE (full-width section with split layout)
+Left side - "What Most Agencies Deliver":
+- A static website that sits there
+- You still chase leads manually
+- After-hours inquiries go cold
+- Data lives in 10 different places
+
+Right side - "What We Build":
+- A system that captures, qualifies, and follows up with leads automatically
+- AI that answers calls and books appointments 24/7
+- Workflows that sync your calendar, CRM, and communication tools
+- One connected operation instead of scattered tools
+
+Use contrasting visual treatment (gray/muted vs. vibrant)
+
+4. PROBLEM/AGITATION (3-column grid with icons)
+- "Missed follow-ups costing you customers?" → "Leads slip through because you're too busy doing the work to chase the work."
+- "Drowning in scheduling and data entry?" → "Hours lost every week to tasks a system could handle in seconds."
+- "After-hours calls going to voicemail?" → "Customers call your competitor when they can't reach you at 7pm."
+
+5. SOLUTION: WHAT WE ACTUALLY BUILD (4 cards with depth)
+
+Card 1 - "Automated Workflows"
+"We connect your tools—calendar, email, CRM, forms—so data flows automatically. No more copy-pasting between apps."
+
+Card 2 - "AI-Powered Communication"
+"Phone agents and chatbots that answer questions, book appointments, and qualify leads—even at 2am."
+
+Card 3 - "Websites That Work"
+"Not brochures. Hubs. Your site becomes the front door to an automated system that handles intake, booking, and follow-up."
+
+Card 4 - "Business Systems Design"
+"We map your operations and build the infrastructure so your business runs smoother as you grow."
+
+6. HOW WE WORK (horizontal timeline or 3 steps)
+Step 1: "Discovery" — "We learn how your business actually runs—where time gets wasted, where leads get lost."
+Step 2: "Design & Build" — "We architect a system tailored to your workflows, then build and integrate it."
+Step 3: "Launch + Optimize" — "We deploy, train your team, and continuously improve based on real results."
+
+Subtle note below: "Most clients are live within 2-3 weeks."
+
+7. CASE STUDY PREVIEW
+- Headline: "From Scattered to Streamlined"
+- Brief Shulton story: "Shulton LLC was juggling phone calls, manual scheduling, and missed follow-ups. We built an integrated system—website, AI phone agent, automated booking—that handles it all. Now they focus on the work, not the admin."
+- CTA: "Read the Full Case Study →"
+- Placeholder for before/after metrics
+
+8. WHO THIS IS FOR (simple 2x2 or list)
+"We work best with:"
+- Service businesses (contractors, home services, professional services)
+- Growing companies ready to systematize
+- Owners tired of duct-taping tools together
+- Teams who want technology that actually saves time
+
+"Not a fit if you just want a pretty website that sits there."
+
+9. FINAL CTA SECTION
+- Headline: "Ready to Stop Running Your Business on Spreadsheets and Sticky Notes?"
+- Subhead: "Let's talk about what a real system could do for you."
+- Primary button: "Book Your Free Consultation"
+- Secondary: "Or email us: steven@rodacsgroup.com"
+
+10. FOOTER
+- Logo
+- Quick links: Services, About, Case Studies, Contact
+- Contact: steven@rodacsgroup.com, phone placeholder
+- LinkedIn icon
+- "© 2025 Rodas Consulting Group LLC"
+- Small tagline: "Automation & AI for Growing Businesses"
+
+ADDITIONAL REQUIREMENTS:
+- Mobile-first responsive design
+- Smooth scroll animations (subtle, professional)
+- AI chatbot placeholder: floating button bottom-right with subtle pulse animation
+- Contact form ready to connect to API route
+- SEO: proper meta tags, Open Graph ready
+- Accessibility: proper heading hierarchy, alt text placeholders, keyboard navigation
+- Make the "systems vs. websites" distinction visually clear throughout—this is the core message
+
+Generate the complete homepage as a single-page component, production-ready.
