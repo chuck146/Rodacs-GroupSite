@@ -1,0 +1,54 @@
+Redesign this website to be more visually dynamic and modern while keeping the same content structure. Apply these specific design enhancements:
+
+VISUAL ENERGY:
+- Add subtle gradient backgrounds (deep blue to teal transitions, not flat colors)
+- Use glassmorphism effects on cards (frosted glass look with backdrop-blur)
+- Add soft shadows and depth — cards should feel like they're floating
+- Include subtle grain/noise texture overlay for visual warmth
+
+MOTION & INTERACTIVITY:
+- Smooth fade-in animations on scroll (elements slide up as they enter viewport)
+- Hover effects on all cards (slight lift + shadow increase)
+- Subtle scale animation on CTA buttons on hover
+- Animated gradient border on the primary CTA button
+- Icon animations — icons should have micro-interactions on hover
+
+TYPOGRAPHY:
+- Make the hero headline larger and bolder (text-5xl to text-7xl)
+- Add gradient text effect on key headlines (blue to teal gradient)
+- Increase contrast between headings and body text
+- Use font-medium on subheadings, not just regular weight
+
+HERO SECTION:
+- Full viewport height hero with centered content
+- Animated background — subtle floating shapes or soft gradient animation
+- Add a decorative grid pattern or dots in the background (low opacity)
+- Trust badges/logos section below the CTA with subtle animation
+
+CARDS & SECTIONS:
+- Rounded-2xl corners on all cards (more modern than sharp corners)
+- Add colored accent borders or glowing edges on hover
+- Use alternating section backgrounds (white, then light blue-gray, then white)
+- Add decorative elements — abstract shapes, lines, or blobs in corners
+
+COLOR REFINEMENTS:
+- Primary: Deep blue (#1E3A5F)
+- Accent: Vibrant teal (#0D9488)
+- Gradient: Linear from #1E3A5F to #0D9488
+- Add accent pops of lighter teal (#14B8A6) for highlights
+- Dark mode ready color tokens
+
+SPECIFIC COMPONENTS:
+- Navigation: Add blur backdrop on scroll (sticky header that changes on scroll)
+- Services cards: Icon in a colored circle with soft glow behind it
+- How it works: Connected timeline with animated line drawing effect
+- Testimonials: Large quote marks, photo if available, styled card
+- CTA section: Full-width gradient background with floating elements
+- Footer: Darker background with organized columns
+
+SPACING & LAYOUT:
+- More generous padding (py-24 on sections instead of py-16)
+- Max-w-6xl container with comfortable margins
+- Better visual hierarchy with clear section breaks
+
+Keep the messaging and content structure exactly the same. Just make it feel premium, alive, and memorable — not like a template.
