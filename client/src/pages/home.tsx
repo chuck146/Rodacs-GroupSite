@@ -156,7 +156,7 @@ export default function Home() {
               R
             </div>
             <span className="font-bold text-xl tracking-tight">
-              <span className={isScrolled ? 'text-primary' : 'text-primary'}>RODACS</span>{' '}
+              <span className={isScrolled ? 'text-primary' : 'text-primary'}>RODAS C.</span>{' '}
               <span className="gradient-text">Group</span>
             </span>
           </div>
@@ -332,7 +332,7 @@ export default function Home() {
             className="text-center mb-16"
           >
             <span className="inline-block px-4 py-1.5 rounded-full bg-secondary/10 text-secondary font-semibold text-sm mb-4">
-              The RODACS Difference
+              The RODAS C. Difference
             </span>
             <h2 className="text-4xl md:text-5xl font-bold text-primary">
               Not Just a Website. <span className="gradient-text">A Complete System.</span>
@@ -340,7 +340,7 @@ export default function Home() {
           </motion.div>
 
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-stretch max-w-6xl mx-auto">
-            {/* Left: RODACS System */}
+            {/* Left: RODAS C. System */}
             <motion.div 
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -865,7 +865,7 @@ export default function Home() {
                 <div className="w-10 h-10 bg-gradient-to-br from-secondary to-accent rounded-xl flex items-center justify-center text-white font-bold shadow-lg">
                   R
                 </div>
-                <span className="font-bold text-xl tracking-tight text-white">RODACS <span className="text-secondary">Group</span></span>
+                <span className="font-bold text-xl tracking-tight text-white">RODAS C. <span className="text-secondary">Group</span></span>
               </div>
               <p className="text-slate-400 max-w-sm mb-8 leading-relaxed">
                 Automation & AI for Growing Businesses. We build the systems that help you scale without the headache.
