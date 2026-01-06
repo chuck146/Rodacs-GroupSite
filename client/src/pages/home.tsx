@@ -340,45 +340,9 @@ export default function Home() {
           </motion.div>
 
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-stretch max-w-6xl mx-auto">
-            {/* Left: Standard Website */}
+            {/* Left: RODACS System */}
             <motion.div 
               initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-              className="glass-card p-8 md:p-10 rounded-3xl relative overflow-hidden group hover:shadow-xl transition-all duration-500"
-            >
-              <div className="absolute top-0 left-0 w-1.5 h-full bg-slate-300 rounded-l-3xl"></div>
-              <div className="absolute top-4 right-4 opacity-5 group-hover:opacity-10 transition-opacity">
-                <LayoutTemplate className="w-32 h-32 text-slate-400" />
-              </div>
-              
-              <h3 className="text-2xl font-bold text-slate-400 mb-8 flex items-center gap-3">
-                <div className="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center">
-                  <LayoutTemplate className="w-6 h-6 text-slate-400" />
-                </div>
-                What Most Agencies Deliver
-              </h3>
-              <ul className="space-y-5">
-                {[
-                  "A static website that sits there",
-                  "You still chase leads manually",
-                  "After-hours inquiries go cold",
-                  "Data lives in 10 different places"
-                ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-4 text-slate-500">
-                    <div className="w-6 h-6 rounded-full bg-red-50 flex items-center justify-center shrink-0 mt-0.5">
-                      <X className="w-4 h-4 text-red-400" />
-                    </div>
-                    <span className="text-lg">{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </motion.div>
-
-            {/* Right: RODACS System */}
-            <motion.div 
-              initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
@@ -405,6 +369,42 @@ export default function Home() {
                   <li key={i} className="flex items-start gap-4 text-slate-700 font-medium">
                     <div className="w-6 h-6 rounded-full bg-secondary/10 flex items-center justify-center shrink-0 mt-0.5">
                       <Check className="w-4 h-4 text-secondary" />
+                    </div>
+                    <span className="text-lg">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+
+            {/* Right: Standard Website */}
+            <motion.div 
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="glass-card p-8 md:p-10 rounded-3xl relative overflow-hidden group hover:shadow-xl transition-all duration-500"
+            >
+              <div className="absolute top-0 left-0 w-1.5 h-full bg-slate-300 rounded-l-3xl"></div>
+              <div className="absolute top-4 right-4 opacity-5 group-hover:opacity-10 transition-opacity">
+                <LayoutTemplate className="w-32 h-32 text-slate-400" />
+              </div>
+              
+              <h3 className="text-2xl font-bold text-slate-400 mb-8 flex items-center gap-3">
+                <div className="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center">
+                  <LayoutTemplate className="w-6 h-6 text-slate-400" />
+                </div>
+                What Most Agencies Deliver
+              </h3>
+              <ul className="space-y-5">
+                {[
+                  "A static website that sits there",
+                  "You still chase leads manually",
+                  "After-hours inquiries go cold",
+                  "Data lives in 10 different places"
+                ].map((item, i) => (
+                  <li key={i} className="flex items-start gap-4 text-slate-500">
+                    <div className="w-6 h-6 rounded-full bg-red-50 flex items-center justify-center shrink-0 mt-0.5">
+                      <X className="w-4 h-4 text-red-400" />
                     </div>
                     <span className="text-lg">{item}</span>
                   </li>
