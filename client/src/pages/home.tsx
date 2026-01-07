@@ -38,6 +38,7 @@ import {
 } from "@/components/ui/form";
 import { Separator } from "@/components/ui/separator";
 import { useToast } from "@/hooks/use-toast";
+import { AIChatWidget } from "@/components/AIChatWidget";
 
 import heroBg from "@assets/generated_images/abstract_digital_network_background_deep_blue_and_teal.png";
 import diffImage from "@assets/generated_images/modern_office_workflow_automation_concept.png";
@@ -925,24 +926,8 @@ export default function Home() {
         </div>
       </footer>
 
-      {/* AI Chatbot Placeholder */}
-      <motion.div 
-        initial={{ scale: 0 }}
-        animate={{ scale: 1 }}
-        transition={{ delay: 1, type: "spring" }}
-        className="fixed bottom-6 right-6 z-50"
-      >
-        <button className="w-16 h-16 bg-gradient-to-br from-secondary to-accent rounded-2xl flex items-center justify-center text-white shadow-2xl hover:shadow-3xl transition-all btn-scale relative group glow">
-          <MessageSquare className="w-7 h-7" />
-          <span className="absolute -top-1 -right-1 flex h-4 w-4">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
-            <span className="relative inline-flex rounded-full h-4 w-4 bg-red-500 border-2 border-white"></span>
-          </span>
-          <div className="absolute right-full mr-4 bg-white text-primary px-5 py-3 rounded-xl shadow-2xl text-sm font-semibold whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none border border-slate-100">
-            Chat with our AI Agent
-          </div>
-        </button>
-      </motion.div>
+      {/* AI Chatbot Widget */}
+      <AIChatWidget />
     </div>
   );
 }
