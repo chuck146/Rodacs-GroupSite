@@ -298,7 +298,7 @@ export default function Home() {
             <motion.div variants={fadeIn} className="flex items-center justify-center gap-3 text-slate-500">
               <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/60 backdrop-blur-sm border border-white/50 shadow-sm">
                 <Check className="w-5 h-5 text-secondary" />
-                <span className="font-medium">Helping service businesses across NJ work smarter</span>
+                <span className="font-medium">Helping businesses across NJ work smarter</span>
               </div>
             </motion.div>
           </motion.div>
