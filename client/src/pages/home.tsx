@@ -770,7 +770,7 @@ export default function Home() {
               initial={{ opacity: 0, x: 40 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="glass-card rounded-3xl p-8 md:p-10 shadow-2xl"
+              className="glass-card-strong rounded-3xl p-8 md:p-10 shadow-2xl"
             >
               <h3 className="text-2xl font-bold text-primary mb-8">Send us a message</h3>
               <Form {...form}>
