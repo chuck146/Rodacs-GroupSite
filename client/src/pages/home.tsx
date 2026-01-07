@@ -143,7 +143,7 @@ export default function Home() {
         transition={{ duration: 0.6 }}
         className={`fixed top-0 z-50 w-full transition-all duration-500 ${
           isScrolled 
-            ? 'bg-white/80 backdrop-blur-xl shadow-lg border-b border-white/20' 
+            ? 'bg-white/70 backdrop-blur-2xl saturate-150 shadow-lg border-b border-white/30' 
             : 'bg-transparent'
         }`}
       >
@@ -254,7 +254,7 @@ export default function Home() {
             className="max-w-5xl mx-auto text-center"
           >
             <motion.div variants={fadeInUp} className="mb-6">
-              <span className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-white/80 backdrop-blur-sm border border-white/50 shadow-lg text-primary font-semibold text-sm tracking-wide">
+              <span className="inline-flex items-center gap-2 px-5 py-2 rounded-full glass-pill text-primary font-semibold text-sm tracking-wide">
                 <Zap className="w-4 h-4 text-secondary" />
                 Automation & AI for Growing Businesses
               </span>
@@ -297,7 +297,7 @@ export default function Home() {
             </motion.div>
 
             <motion.div variants={fadeIn} className="flex items-center justify-center gap-3 text-slate-500">
-              <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/60 backdrop-blur-sm border border-white/50 shadow-sm">
+              <div className="flex items-center gap-2 px-4 py-2 rounded-full glass-pill">
                 <Check className="w-5 h-5 text-secondary" />
                 <span className="font-medium">Helping businesses across NJ work smarter</span>
               </div>
@@ -347,7 +347,7 @@ export default function Home() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="glass-card p-8 md:p-10 rounded-3xl relative overflow-hidden card-lift glow-hover border-2 border-secondary/20"
+              className="glass-card-strong p-8 md:p-10 rounded-3xl relative overflow-hidden card-lift glow-hover border-2 border-secondary/20"
             >
               <div className="absolute top-0 left-0 w-1.5 h-full bg-gradient-to-b from-secondary to-accent rounded-l-3xl"></div>
               <div className="absolute top-4 right-4 opacity-10">
@@ -383,7 +383,7 @@ export default function Home() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="glass-card p-8 md:p-10 rounded-3xl relative overflow-hidden group hover:shadow-xl transition-all duration-500"
+              className="glass-card-subtle p-8 md:p-10 rounded-3xl relative overflow-hidden group hover:shadow-xl transition-all duration-500"
             >
               <div className="absolute top-0 left-0 w-1.5 h-full bg-slate-300 rounded-l-3xl"></div>
               <div className="absolute top-4 right-4 opacity-5 group-hover:opacity-10 transition-opacity">
@@ -446,7 +446,7 @@ export default function Home() {
               <motion.div 
                 key={i}
                 variants={fadeInUp}
-                className="glass-card text-center p-10 rounded-3xl card-lift group"
+                className="glass-card-strong text-center p-10 rounded-3xl card-lift group"
               >
                 <div className="w-20 h-20 mx-auto bg-gradient-to-br from-secondary/10 to-accent/10 rounded-2xl flex items-center justify-center mb-8 group-hover:shadow-lg transition-all relative">
                   <div className="absolute inset-0 bg-gradient-to-br from-secondary to-accent opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity"></div>
@@ -782,7 +782,7 @@ export default function Home() {
                       <FormItem>
                         <FormLabel className="text-slate-700 font-medium">Name</FormLabel>
                         <FormControl>
-                          <Input placeholder="John Doe" {...field} className="h-12 rounded-xl bg-white/80 border-slate-200 focus:border-secondary" data-testid="input-name" />
+                          <Input placeholder="John Doe" {...field} className="h-12 rounded-xl glass-input" data-testid="input-name" />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -795,7 +795,7 @@ export default function Home() {
                       <FormItem>
                         <FormLabel className="text-slate-700 font-medium">Email</FormLabel>
                         <FormControl>
-                          <Input placeholder="john@company.com" {...field} className="h-12 rounded-xl bg-white/80 border-slate-200 focus:border-secondary" data-testid="input-email" />
+                          <Input placeholder="john@company.com" {...field} className="h-12 rounded-xl glass-input" data-testid="input-email" />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -808,7 +808,7 @@ export default function Home() {
                       <FormItem>
                         <FormLabel className="text-slate-700 font-medium">Company (Optional)</FormLabel>
                         <FormControl>
-                          <Input placeholder="Your Company LLC" {...field} className="h-12 rounded-xl bg-white/80 border-slate-200 focus:border-secondary" data-testid="input-company" />
+                          <Input placeholder="Your Company LLC" {...field} className="h-12 rounded-xl glass-input" data-testid="input-company" />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -823,7 +823,7 @@ export default function Home() {
                         <FormControl>
                           <Textarea 
                             placeholder="Tell us about your current challenges..." 
-                            className="min-h-[120px] rounded-xl bg-white/80 border-slate-200 focus:border-secondary resize-none" 
+                            className="min-h-[120px] rounded-xl glass-input resize-none" 
                             {...field}
                             data-testid="input-message"
                           />
