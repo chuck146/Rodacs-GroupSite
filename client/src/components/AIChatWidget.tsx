@@ -14,7 +14,7 @@ export function AIChatWidget() {
   const [messages, setMessages] = useState<ChatMessage[]>([
     {
       role: "assistant",
-      content: "Hi! I'm the RODAS C. Group AI assistant. I can help answer questions about our workflow automation and AI integration services. How can I help you today?"
+      content: "Hi! I'm the RODAS Consulting Group AI assistant. I can help answer questions about our workflow automation and AI integration services. How can I help you today?"
     }
   ]);
   const [input, setInput] = useState("");
@@ -139,7 +139,7 @@ export function AIChatWidget() {
                   <Bot className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="font-semibold">RODAS C. Assistant</h3>
+                  <h3 className="font-semibold">RODAS Assistant</h3>
                   <p className="text-xs text-white/80">Powered by AI</p>
                 </div>
               </div>

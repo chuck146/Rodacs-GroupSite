@@ -41,6 +41,7 @@ import { useToast } from "@/hooks/use-toast";
 import { AIChatWidget } from "@/components/AIChatWidget";
 
 import heroBg from "@assets/generated_images/abstract_digital_network_background_deep_blue_and_teal.png";
+import logoImage from "/logo.png";
 import diffImage from "@assets/generated_images/modern_office_workflow_automation_concept.png";
 
 // Animation variants
@@ -153,13 +154,7 @@ export default function Home() {
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             data-testid="logo-home"
           >
-            <div className="w-11 h-11 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:shadow-xl transition-all group-hover:scale-105">
-              R
-            </div>
-            <span className="font-bold text-xl tracking-tight">
-              <span className={isScrolled ? 'text-primary' : 'text-primary'}>RODAS C.</span>{' '}
-              <span className="gradient-text">Group</span>
-            </span>
+            <img src={logoImage} alt="RODAS Consulting Group" className="h-12 w-auto object-contain group-hover:scale-105 transition-transform" />
           </div>
 
           <div className="hidden md:flex items-center gap-8">
@@ -333,7 +328,7 @@ export default function Home() {
             className="text-center mb-16"
           >
             <span className="inline-block px-4 py-1.5 rounded-full bg-secondary/10 text-secondary font-semibold text-sm mb-4">
-              The RODAS C. Difference
+              The RODAS Difference
             </span>
             <h2 className="text-4xl md:text-5xl font-bold text-primary">
               Not Just a Website. <span className="gradient-text">A Complete System.</span>
@@ -341,7 +336,7 @@ export default function Home() {
           </motion.div>
 
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-stretch max-w-6xl mx-auto">
-            {/* Left: RODAS C. System */}
+            {/* Left: RODAS System */}
             <motion.div 
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -863,10 +858,7 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-12 mb-16">
             <div className="col-span-1 md:col-span-2">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 bg-gradient-to-br from-secondary to-accent rounded-xl flex items-center justify-center text-white font-bold shadow-lg">
-                  R
-                </div>
-                <span className="font-bold text-xl tracking-tight text-white">RODAS C. <span className="text-secondary">Group</span></span>
+                <img src={logoImage} alt="RODAS Consulting Group" className="h-14 w-auto object-contain bg-white rounded-lg p-1" />
               </div>
               <p className="text-slate-400 max-w-sm mb-8 leading-relaxed">
                 Automation & AI for Growing Businesses. We build the systems that help you scale without the headache.
