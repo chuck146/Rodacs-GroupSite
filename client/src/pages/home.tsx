@@ -460,7 +460,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 5. SOLUTION: WHAT WE ACTUALLY BUILD */}
+      {/* 5. SOLUTION: WHAT WE BUILD */}
       <section id="services" className="py-32 bg-gradient-primary text-white relative overflow-hidden scroll-mt-20">
         {/* Decorative elements */}
         <div className="absolute inset-0 opacity-20">
@@ -479,7 +479,7 @@ export default function Home() {
             <span className="inline-block px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-sm text-white/90 font-semibold text-sm mb-6 border border-white/20">
               Our Services
             </span>
-            <h2 className="text-4xl md:text-6xl font-bold mb-6">What We Actually Build</h2>
+            <h2 className="text-4xl md:text-6xl font-bold mb-6">What We Build</h2>
             <p className="text-blue-100 text-xl">We create the infrastructure that lets your business scale without the chaos.</p>
           </motion.div>
 
