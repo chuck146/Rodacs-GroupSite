@@ -154,7 +154,7 @@ export default function Home() {
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             data-testid="logo-home"
           >
-            <img src={logoImage} alt="RODAS Consulting Group" className="h-20 md:h-24 w-auto object-contain group-hover:scale-105 transition-transform" />
+            <img src={logoImage} alt="RODAS Consulting Group" className="h-14 md:h-16 w-auto max-h-full object-contain group-hover:scale-105 transition-transform" />
           </div>
 
           <div className="hidden md:flex items-center gap-8">
