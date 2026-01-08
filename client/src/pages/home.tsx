@@ -155,7 +155,9 @@ export default function Home() {
             data-testid="logo-home"
           >
             <img src={logoImage} alt="RODAS Consulting Group" className="h-16 md:h-20 w-auto max-h-full object-contain group-hover:scale-105 transition-transform" />
-            <span className="text-lg md:text-xl font-semibold text-slate-800">Rodas Consulting Group</span>
+            <span className="hidden md:inline-block text-lg md:text-xl font-bold px-4 py-2 rounded-xl backdrop-blur-md bg-white/40 border border-white/30 shadow-lg">
+              <span className="bg-gradient-to-r from-[#1E3A5F] to-[#0D9488] bg-clip-text text-transparent">Rodas Consulting Group</span>
+            </span>
           </div>
 
           <div className="hidden md:flex items-center gap-8">
