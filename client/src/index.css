@@ -139,6 +139,9 @@
   body {
     @apply font-sans antialiased bg-background text-foreground;
   }
+  a, button, [role="button"], [onclick], .cursor-pointer {
+    cursor: pointer;
+  }
 }
 
 /* Grain texture overlay */
