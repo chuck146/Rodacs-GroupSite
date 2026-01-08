@@ -561,7 +561,7 @@ export default function Home() {
               className="grid md:grid-cols-3 gap-12 relative z-10"
             >
               {[
-                { step: "01", title: "Discovery", desc: "We learn how your business actually runs—where time gets wasted, where leads get lost." },
+                { step: "01", title: "Discovery", desc: "We learn how your business runs—where time gets wasted, where leads get lost." },
                 { step: "02", title: "Design & Build", desc: "We architect a system tailored to your workflows, then build and integrate it." },
                 { step: "03", title: "Launch + Optimize", desc: "We deploy, train your team, and continuously improve based on real results." }
               ].map((item, i) => (
