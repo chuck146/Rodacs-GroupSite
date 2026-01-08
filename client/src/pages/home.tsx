@@ -858,7 +858,7 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-12 mb-16">
             <div className="col-span-1 md:col-span-2">
               <div className="flex items-center gap-3 mb-6">
-                <img src={logoImage} alt="RODAS Consulting Group" className="h-20 w-auto object-contain bg-white rounded-lg p-2" />
+                <img src={logoImage} alt="RODAS Consulting Group" className="h-28 w-auto object-contain bg-white rounded-lg p-3" />
               </div>
               <p className="text-slate-400 max-w-sm mb-8 leading-relaxed">
                 Automation & AI for Growing Businesses. We build the systems that help you scale without the headache.
