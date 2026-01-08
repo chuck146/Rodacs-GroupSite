@@ -868,12 +868,14 @@ export default function Home() {
               </p>
               <div className="flex gap-4">
                 {[
-                  { icon: <Linkedin className="w-5 h-5" />, href: "#" },
+                  { icon: <Linkedin className="w-5 h-5" />, href: "https://www.linkedin.com/in/stevenmorales477/" },
                   { icon: <Mail className="w-5 h-5" />, href: "mailto:steven@rodascgroup.com" }
                 ].map((item, i) => (
                   <a 
                     key={i}
-                    href={item.href} 
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-11 h-11 rounded-xl bg-white/5 flex items-center justify-center hover:bg-secondary hover:text-white transition-all border border-white/10"
                   >
                     {item.icon}
